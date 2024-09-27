@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 16px;
+}
+#results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#results li {
+    padding: 10px;
+    cursor: pointer;
+}
+#results li:hover {
+    background-color: #f0f0f0;
+}
+#bo-info {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#map {
+    margin-top: 20px;
+    height: 400px;
+    background-color: #eaeaea;
+}
